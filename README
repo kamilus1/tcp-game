@@ -1,0 +1,11 @@
+Small unfinished multiplayer game using tcp connection. 
+To start game, u first need to start server. 
+So you need to start world file and write options of your server in gui then start the server. 
+To connect to server go to player.py file. Go down the code and change values of port, server port etc to your specification. 
+Addition libraries you need:
+-tkinter
+-pygame
+
+Sorry for my bad english. 
+Greetings from Bogdaszowice
+elo
