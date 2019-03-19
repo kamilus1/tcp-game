@@ -62,6 +62,7 @@ class ChatServer:
                     self.server.sendto(data, self.player_ports[i])
 def start_chat(name, port, server_port, server_ip):
     root = Tk()
+    root.title(name)
     CC = ChatClient(root, name, port, server_port, server_ip)
     root.mainloop()
 if __name__ == '__main__':
