@@ -65,8 +65,4 @@ def start_chat(name, port, server_port, server_ip):
     root.title(name)
     CC = ChatClient(root, name, port, server_port, server_ip)
     root.mainloop()
-#actually you dont need this if__name__.... I left here it for accident
-if __name__ == '__main__':
-    CS = ChatServer(5005, [("192.168.0.92", 5025)])
-    Thread(target=CS.listen_to_msg, args=()).start()
-    start_chat("mlody g", 5025, 5005, "192.168.0.92")
+
